@@ -26,12 +26,13 @@ class Element:
         self.elements = elements
 
         if name == "None":
+            self.given_name = False
             if int(count_of_electrons) > 0 and int(count_of_electrons) < 119:
                 self.electrons = count_of_electrons
                 found = False
                 for roww in elements:
                     if roww[1] == count_of_electrons:
-                        self.name = roww[0]
+                        self.element_name = roww[0]
                         self.valence = roww[2]
                         self.row = roww[3]
                         self.col = roww[4]
@@ -44,10 +45,11 @@ class Element:
                 raise NegativeCountElectrons("Nie zidentyfikowano pierwiasta o podanej ilości elektronów")
         
         else:
+            self.given_name = True
             correct_name = False
             for roww in elements:
                 if roww[0].lower() == name.lower():
-                    self.name = name
+                    self.element_name = name
                     self.electrons = roww[1]
                     self.valence = roww[2]
                     self.row = roww[3]
@@ -63,6 +65,9 @@ class Element:
         shell_names = ['K','L','M','N','O','P','Q']
         result = ""
 
+        #Wyjątki
+
+
         if self.row == '1':
 
             result = "K - " + self.valence
@@ -70,7 +75,7 @@ class Element:
         elif self.row == '2':
 
             result = "K - " + str(int(self.electrons) - int(self.valence))
-            result = result + ", L -" + self.valence
+            result = result + ",L -" + self.valence
 
         else:
 
@@ -91,5 +96,7 @@ class Element:
                 used_electrons = electrons_for_use
 
             result = result + shell_names[i+1] + " - " + self.valence + ","
-
+        if self.given_name == False:
+            result = result + "\n" + self.element_name
         return result
+    

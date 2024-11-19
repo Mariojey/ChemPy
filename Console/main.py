@@ -11,14 +11,14 @@ elements = load_elements("./data.csv")
 
 print("WITAJ W LABOLATORIUM CHEMICZNYM")
 
-while True:
-    value = input("Podaj nazwę pierwiastka lub wpisz liczbę elektronów:  ")
+while 1:
+    value = input("Podaj nazwę pierwiastka lub wpisz liczbę elektronów: ")
     if(value == "Q"):
         break;
     try:
         number = int(value)
         if number < 0 or number > 118:
-            print("Nie zidentyfikowano pierwiastka o podanej ilości elektronów")
+            print("Nie zidentyfikowano pierwiastka o podanej ilości elektronów\n")
         else:
             element = Element("None", value, elements)
             print("Konfiguracja powłokowa")
@@ -32,5 +32,5 @@ while True:
                 print("Konfiguracja powłokowa")
                 print(element.podaj_konfiguracje_elektronowa())
         if correct_name == False:
-            print("Nie odkryto jeszcze pierwiastka o podanej nazwie, sprawdź czy nie ma literówki ;)")
-    print("Aby wyjść wpisz Q")
+            print("Nie odkryto jeszcze pierwiastka o podanej nazwie, sprawdź czy nie ma literówki ;)\n")
+    print("\nAby wyjść wpisz Q")
