@@ -6,82 +6,189 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>849</width>
-    <height>600</height>
+    <width>1200</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="title">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 85, 127)</string>
+   </property>
+   <widget class="QFrame" name="Header">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>131</width>
-      <height>31</height>
+      <x>19</x>
+      <y>10</y>
+      <width>1161</width>
+      <height>51</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Labolatorium Chemiczne - ChemPy</string>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid white;
+border-radius: 10px;
+width: 96%;
+min-height: 40px</string>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="header_text">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>8</y>
+       <width>1081</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+border: none;
+width: 100%</string>
+     </property>
+     <property name="text">
+      <string>Labolatorium Chemiczne - ChemPy</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
    </widget>
-   <widget class="QPushButton" name="send">
+   <widget class="QFrame" name="konfiguracja_powlokowa">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>120</y>
-      <width>121</width>
-      <height>21</height>
+      <y>200</y>
+      <width>1141</width>
+      <height>541</height>
      </rect>
     </property>
-    <property name="cursor">
-     <cursorShape>ClosedHandCursor</cursorShape>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid white;
+border-radius: 10px;</string>
     </property>
-    <property name="autoFillBackground">
-     <bool>true</bool>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
     </property>
-    <property name="text">
-     <string>Pokaż konfigurację powłokową</string>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
     </property>
-    <property name="default">
-     <bool>true</bool>
-    </property>
-    <property name="flat">
-     <bool>false</bool>
-    </property>
+    <widget class="QLabel" name="konfiguracja_powlokowa_header">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>30</y>
+       <width>1011</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>17</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white</string>
+     </property>
+     <property name="text">
+      <string>Obliczanie konfiguracji powłokowej pierwiastka chemicznego.</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="text_input">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>120</y>
+       <width>521</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+border-radius: 20px;
+border: 1px solid white;
+padding-left: 10px;
+height: 30px</string>
+     </property>
+     <property name="placeholderText">
+      <string>Wpisz nazwę pierwiastka lub podaj liczbę elektronów.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="send">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>290</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 8px;
+color: white;
+font-size: 12px;</string>
+     </property>
+     <property name="text">
+      <string>Oblicz</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QLabel" name="result">
-    <property name="enabled">
-     <bool>false</bool>
-    </property>
+   <widget class="QPushButton" name="mendelewButton">
     <property name="geometry">
      <rect>
-      <x>14</x>
-      <y>150</y>
-      <width>111</width>
-      <height>31</height>
+      <x>840</x>
+      <y>90</y>
+      <width>331</width>
+      <height>41</height>
      </rect>
     </property>
-    <property name="cursor">
-     <cursorShape>WaitCursor</cursorShape>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid white;
+border-radius: 12px;
+color: white</string>
     </property>
     <property name="text">
-     <string>Trwa konfiguracja...</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="text_input">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>113</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>Wpisz nazwę pierwiastka lub podaj liczbę elektronów</string>
+     <string>Układ Okresowy pierwiastków chemicznych</string>
     </property>
    </widget>
   </widget>
@@ -90,7 +197,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>849</width>
+     <width>1200</width>
      <height>18</height>
     </rect>
    </property>

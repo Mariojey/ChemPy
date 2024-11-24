@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QMessageBox, QLineEdit, QLabel, QPushButton
+from PyQt5.QtWidgets import QApplication, QWidget, QFrame, QMainWindow, QMessageBox, QLineEdit, QLabel, QPushButton
 from PyQt5 import uic
 import csv
 
@@ -18,11 +18,37 @@ class App(QMainWindow):
         super(App, self).__init__()
         uic.loadUi("./test.ui", self)
 
+        self.setFixedSize(1200, 800)
+
+        #frames
+        self.frame1 = self.findChild(QFrame, 'konfiguracja_powlokowa') 
+        # self.frame2 = self.findChild(QFrame, 'mendelew_frame')
+
+        #configuration elements
         self.text_input = self.findChild(QLineEdit, "text_input")
         self.send = self.findChild(QPushButton, "send")
-        self.result = self.findChild(QLabel, "result")
-    
+        # self.result = self.findChild(QLabel, "result")
         self.send.clicked.connect(self.generate_configuration)
+
+        #menu elements
+        self.mendelewButton = self.findChild(QPushButton, "mendelewButton")
+    
+        #mendelew elements
+
+
+        #init frame
+        self.frame1.setVisible(True)
+        # self.frame2.setVisible(False)
+
+
+        def toggle_frames(self):
+            if self.frame1.isVisible(): 
+                self.frame1.setVisible(False) 
+                # self.frame2.setVisible(True) 
+            else: 
+                self.frame1.setVisible(True) 
+                # self.frame2.setVisible(False)
+
 
     def generate_configuration(self):
         
