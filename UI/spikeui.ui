@@ -248,10 +248,10 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>K</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="Wodor_2">
+    <widget class="QPushButton" name="Wodor">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -274,7 +274,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Li</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Sod">
@@ -287,7 +287,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Na</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Rubid">
@@ -300,7 +300,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Rb</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Cez">
@@ -313,7 +313,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Cs</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Frans">
@@ -326,7 +326,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Fr</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Magnez">
@@ -339,7 +339,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Mg</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Bar">
@@ -352,7 +352,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Mg</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Rad">
@@ -365,7 +365,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ra</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Beryl">
@@ -378,7 +378,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Be</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Wapn">
@@ -391,7 +391,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ca</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Stront">
@@ -404,7 +404,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Sr</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Skand">
@@ -417,7 +417,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Sc</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Itr">
@@ -430,7 +430,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Y</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Aktyn">
@@ -443,7 +443,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ac</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Lantan">
@@ -456,7 +456,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>La</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Cyrkon">
@@ -469,7 +469,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Zr</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Tytan">
@@ -482,7 +482,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ti</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Hafn">
@@ -495,7 +495,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Hf</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Rutherford">
@@ -508,7 +508,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Rf</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Kadm">
@@ -521,7 +521,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Cd</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Cynk">
@@ -534,7 +534,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Zn</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Rtec">
@@ -547,7 +547,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Hg</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Kopernik">
@@ -560,7 +560,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Cn</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Srebro">
@@ -573,7 +573,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ag</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Miedz">
@@ -586,7 +586,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Cu</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Zloto">
@@ -599,7 +599,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Au</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Roentgen">
@@ -612,7 +612,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Rg</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Pallad">
@@ -625,7 +625,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Pd</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Nikiel">
@@ -638,7 +638,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ni</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Platyna">
@@ -651,7 +651,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Pt</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Darmsztad">
@@ -664,7 +664,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ds</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Rod">
@@ -677,7 +677,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Rh</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Cobalt">
@@ -690,7 +690,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Co</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Iryd">
@@ -703,7 +703,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ir</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Meitner">
@@ -716,7 +716,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Mt</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Ruten">
@@ -729,7 +729,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ru</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Zelazo">
@@ -742,7 +742,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Fe</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Osm">
@@ -755,7 +755,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Os</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Has">
@@ -768,7 +768,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Hs</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Technet">
@@ -781,7 +781,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Tc</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Mangan">
@@ -794,7 +794,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Mn</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Ren">
@@ -807,7 +807,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Re</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Bohr">
@@ -820,7 +820,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Bh</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Molibden">
@@ -833,7 +833,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Mo</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Chrom">
@@ -846,7 +846,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Cr</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Wolfram">
@@ -859,7 +859,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>W</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Seaborg">
@@ -872,7 +872,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Sg</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Niob">
@@ -885,7 +885,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Nb</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Wanad">
@@ -898,7 +898,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>V</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Tantal">
@@ -911,7 +911,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ta</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Dubn">
@@ -924,7 +924,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Db</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Nihon">
@@ -937,7 +937,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Nh</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Tal">
@@ -950,7 +950,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Tl</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Gal">
@@ -963,7 +963,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ga</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Ind">
@@ -976,7 +976,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>In</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Glin">
@@ -989,7 +989,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Al</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Bor">
@@ -1002,7 +1002,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>B</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Wegiel">
@@ -1015,7 +1015,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>C</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Cyna">
@@ -1028,7 +1028,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Sc</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Olow">
@@ -1041,7 +1041,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Pb</string>
      </property>
     </widget>
     <widget class="QPushButton" name="German">
@@ -1054,7 +1054,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ge</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Flerow">
@@ -1067,7 +1067,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Fl</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Krzem">
@@ -1080,7 +1080,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Si</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Azot">
@@ -1093,7 +1093,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>N</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Tellur">
@@ -1106,7 +1106,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Te</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Polon">
@@ -1119,7 +1119,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Po</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Siarka">
@@ -1132,7 +1132,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>S</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Selen">
@@ -1145,7 +1145,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Se</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Bizmut">
@@ -1158,7 +1158,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Bi</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Antymon">
@@ -1171,7 +1171,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Sb</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Arsen">
@@ -1184,7 +1184,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>As</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Moskow">
@@ -1197,7 +1197,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Mc</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Fosfor">
@@ -1210,7 +1210,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>P</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Livermor">
@@ -1223,7 +1223,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Lv</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Tlen">
@@ -1236,7 +1236,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>O</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Krypton">
@@ -1249,7 +1249,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Kr</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Oganeson">
@@ -1262,7 +1262,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Og</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Argon">
@@ -1275,7 +1275,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ar</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Chlor">
@@ -1288,7 +1288,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Cl</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Xenon">
@@ -1301,7 +1301,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Xe</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Tenes">
@@ -1314,7 +1314,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ts</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Radon">
@@ -1327,7 +1327,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Rn</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Jod">
@@ -1340,7 +1340,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>I</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Brom">
@@ -1353,7 +1353,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Br</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Neon">
@@ -1366,7 +1366,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>Ne</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Astat">
@@ -1379,7 +1379,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>At</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Fluor">
@@ -1392,7 +1392,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>F</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Hel">
@@ -1405,7 +1405,7 @@ border-radius: 8px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>H</string>
+      <string>He</string>
      </property>
     </widget>
    </widget>
