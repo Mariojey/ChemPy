@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QFrame, QMainWindow, QMessageBox, QLineEdit, QLabel, QPushButton
 from PyQt5 import uic
+from PyQt5.QtMultimedia import QSound  # Moduł do odtwarzania dźwięku ---KUBA---
 import csv
 
 from Element import Element
@@ -13,13 +14,18 @@ def load_elements(file_path):
 
 class App(QMainWindow):
     
+    
     def __init__(self):
+
 
         super(App, self).__init__()
         uic.loadUi("./test.ui", self)
 
         self.setFixedSize(1200, 800)
-
+        
+        # Podłączanie sygnału do przycisku ---KUBA---
+        self.send.clicked.connect(self.play_sound)
+        
         #frames
         self.frame1 = self.findChild(QFrame, 'konfiguracja_powlokowa') 
         self.frame2 = self.findChild(QFrame, 'mendelew_frame')
@@ -219,6 +225,12 @@ class App(QMainWindow):
         self.frame2.setVisible(False)
 
         self.mendelewButton.clicked.connect(self.toggle_frames)
+
+        # dzwiek ---KUBA---
+    def play_sound(self):
+        # Ścieżka do pliku dźwiękowego
+        sound = QSound("home/ksm/Pulpit/ChemPy/UI/pyk3.wav")
+        sound.play()
 
     def generatePopUp(self, element):
         QMessageBox.information(self, "Nazwa pierwiastka", element)
